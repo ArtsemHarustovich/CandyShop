@@ -17,7 +17,7 @@ public class CandyShop {
 
         List <Candy> candiesList = Arrays.asList(spartak, chupachups, haribo, mars);
 
-        Basket basket = new Basket(5, 2);
+        Basket basket = new Basket(4, 2);
 
         for (Candy candy: candiesList) {
             try {
@@ -35,6 +35,5 @@ public class CandyShop {
         System.out.println(basket);
 
         System.out.println("Total basket weight is " + basket.calculateWeight() + " KG.");
-
     }
 }
